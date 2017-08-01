@@ -1,0 +1,48 @@
+<div class="center">
+  <!-- Main Header, Logo, User Info, Botoes de config do retaguarda e logoff... -->
+  <header class="main-header">
+    <!-- User info -->
+    <div class="container-logo-user-info">
+      <div class="ct-logo">
+        <img src="../assets/img/ole-logo.png" />
+      </div>
+      <div>
+        <span id="user-name"></span>
+        <span id="user-avatar">
+          <img class="avatar" id="avatar" />
+        </span>
+      </div>
+    </div>
+
+    <!-- Título da página -->
+    <span id="component-page-title" class="page-title">{{ titulo-pagina }}</span>
+
+    <!-- Botoes de config do retaguarda e logoff -->
+    <div class="container-botoes-header-config-logoff">
+      <nav id="component-botoes-header" class="container-botoes-header">
+        <ul>
+          <li>
+            <button type="button">
+              <fa class="icon-config-header" name="wrench"></fa>
+              <span class="tit-btn-header">Configurações</span>
+            </button>
+          </li>
+          <li>
+            <button type="button">
+              <fa class="icon-config-header" name="sign-out"></fa>
+              <span class="tit-btn-header">Sair</span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Menu - Menu lateral - Rodape - Versão do sist... -->
+  <app-menu></app-menu>
+
+  <!-- CONTAINER DE CONTEÚDO -->
+  <section class="content" id="component-main-content">
+
+  </section>
+</div>

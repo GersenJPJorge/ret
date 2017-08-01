@@ -1,0 +1,18 @@
+<footer id="component-footer" class="main-footer">
+  <span class="versao">Versão: {{ versao }}</span>
+  <div class="container-logo-empresa-footer">
+    <img src="../assets/img/santander-footer-1x.png" class="logo-empresa logo-santander" />
+  </div>
+
+  <ul>
+    <ng-container *ngFor="let contact of data.contacts">
+      <li>
+        <span class="nome">{{ contact.name }}</span><br />
+        <span class="nome">{{ contact.email }}</span><br />
+        <span class="nome">{{ contact.company }}</span><br />
+        <span class="nome">{{ contact.role }}</span><br />
+        <span class="nome">{{ contact.location }}</span><br /><br />
+      </li>
+    </ng-container>
+  </ul>
+</footer>
